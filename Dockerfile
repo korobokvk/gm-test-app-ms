@@ -9,8 +9,7 @@ FROM node:16-alpine
 
 ENV PORT=8880
 ENV HOST=localhost
-ENV AWS_KEY=AKIAYAMZ26E6DQ3NO4QT
-ENV AWS_SECRET=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
+# need to add AWS keys
 ENV AWS_BUCKET=gm-docs-bucket
 ENV AWS_LOCATION=eu-west-3
 ENV CLIENT_SERVICE_URL=http://client:3000/graphql
